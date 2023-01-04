@@ -135,6 +135,6 @@ void remove_file(const char* filename) {
 	     // This is the parent process. Wait for the child process to finish.
 	     int status;
 	     waitpid(pid, &status, 0);
-        }
+      }
     return;
 }
